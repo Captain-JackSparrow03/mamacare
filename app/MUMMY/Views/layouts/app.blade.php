@@ -30,8 +30,7 @@
         @php
             $navItems = [
                 ['route' => 'mummy.dashboard', 'label' => 'Dashboard',  'icon' => '◈'],
-                ['route' => '#',               'label' => 'Grossesse',  'icon' => '♡'],
-                ['route' => 'mummy.baby.index', 'label' => 'Bébé', 'icon' => '👶'],
+                ['route' => 'mummy.baby.index', 'label' => 'Grossesse', 'icon' => '♡'],
                 ['route' => 'mummy.reminders.index', 'label' => 'Rappels', 'icon' => '◷'],
                 ['route' => 'mummy.contents.index', 'label' => 'Contenus', 'icon' => '✦'],
                 ['route' => 'mummy.notes.index', 'label' => 'Notes', 'icon' => '✎'],
