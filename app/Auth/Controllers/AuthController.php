@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Auth\Controllers;
+namespace App\auth\Controllers;
 
 use App\Http\Controllers\Controller;
 use App\Helpers\Flash;
@@ -16,7 +16,7 @@ class AuthController extends Controller
 {
     public function showLogin()
     {
-        return view('Auth::login');
+        return view('auth::login');
     }
 
 

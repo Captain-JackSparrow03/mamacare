@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Auth;
+namespace App\auth;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -19,6 +19,6 @@ class AuthProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        $this->loadViewsFrom(__DIR__.'/Views','Auth');
+        $this->loadViewsFrom(__DIR__.'/Views','auth');
     }
 }

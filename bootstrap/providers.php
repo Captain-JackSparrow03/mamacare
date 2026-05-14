@@ -5,6 +5,6 @@ use App\Providers\AppServiceProvider;
 return [
     App\Admin\AdminProvider::class,
     App\MUMMY\MUMMYProvider::class,
-    App\Auth\AuthProvider::class,
+    App\auth\AuthProvider::class,
     AppServiceProvider::class,
 ];
