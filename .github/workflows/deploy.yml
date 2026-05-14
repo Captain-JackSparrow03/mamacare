@@ -21,6 +21,9 @@ jobs:
             cd /var/www/mamacare
 
             git pull origin main
+            
+            git config --global --add safe.directory /var/www/mamacare
+            sudo chown -R jack:www-data /var/www/mamacare
 
             composer install --no-dev --optimize-autoloader
 
